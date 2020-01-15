@@ -25,7 +25,7 @@ public class Harjoitus1 {
             System.out.println("Muoto on oikea");
         }
 
-
+        //heihei
 
 
         /*System.out.print("Anna tunnus: ");
