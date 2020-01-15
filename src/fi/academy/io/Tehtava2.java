@@ -17,7 +17,7 @@ public class Tehtava2 {
             }
 
         } catch (Exception e) {
-            System.out.println("Virhe: " + e.getMessage());
+            System.err.println("Virhe: " + e.getMessage());
         }
     }
 }

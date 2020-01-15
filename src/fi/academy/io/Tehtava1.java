@@ -5,7 +5,7 @@ import java.io.File;
 public class Tehtava1 {
     public static void main(String[] args) {
         File hakemisto = new File(".");
-        File[] tiedostoListaus = hakemisto.listFiles();
+        File [] tiedostoListaus = hakemisto.listFiles();
 
         System.out.println("Alla kaikki kansiossa olevat tiedostot ja kansiot");
 

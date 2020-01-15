@@ -10,6 +10,7 @@ import java.util.Scanner;
 
 public class Tehtava4beta {
     public static void main(String[] args) {
+        System.out.println("Kirjoita tekstiä: ");
         try {
             while (true) {
                 String s = new BufferedReader(new InputStreamReader(System.in)).readLine();

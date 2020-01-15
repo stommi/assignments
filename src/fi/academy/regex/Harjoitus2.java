@@ -1,7 +1,5 @@
 package fi.academy.regex;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -17,7 +15,7 @@ public class Harjoitus2 {
         Pattern pat = Pattern.compile("Academy");
         Matcher m = pat.matcher(syote);
 
-        for (; m.find() ;) {
+        for (; m.find(); ) {
             tulokset.add(m.start() + ": " + m.group());
         }
         tulokset.forEach(System.out::println);
