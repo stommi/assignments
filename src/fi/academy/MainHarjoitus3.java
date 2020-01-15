@@ -13,6 +13,11 @@ public class MainHarjoitus3 {
 
         System.out.println(testi.isInteger(syote));
 
+        //System.out.println("Syötä luku, kerron onko se Double: ");
+        //String syote2 = lukija.nextLine();
+
+        //System.out.println(testi.isDouble(syote2));
+
 
     }
 }
