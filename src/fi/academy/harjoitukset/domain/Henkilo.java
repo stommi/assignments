@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import fi.academy.harjoitukset.domain.Paivamaara;
 import java.time.Period;
 
-public class Henkilo {
+public class Henkilo implements Comparable<Henkilo> {
 
     private String etunimi;
     private String sukunimi;
@@ -57,5 +57,10 @@ public class Henkilo {
     @Override
     public String toString() {
         return this.etunimi + " " + this.sukunimi + " on syntynyt " + this.syntymaaika;
+    }
+
+    @Override
+    public int compareTo(Henkilo o) {
+        return 0;
     }
 }
